@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mms_config version="2">
+    <string name="uaProfUrl">http://device.sprintpcs.com/Samsung/SPH-L700/latest</string>
+    <int name="maxMessageSize">1024000</int>
+    <int name="smsToMmsTextThreshold">2</int>
+    <bool name="enableMultipartSMS">false</bool>
+    <bool name="enableSlideDuration">false</bool>
+    <int name="maxMessageTextSize">160</int>
+    <string name="userAgent">SPH-L700/Android-mms</string>
+    <bool name="enableMMSReadReports">false</bool>
+    <bool name="enableSMSDeliveryReports">false</bool>
+    <bool name="enableMMSDeliveryReports">false</bool>
+</mms_config>

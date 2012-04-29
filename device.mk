@@ -20,5 +20,8 @@
 
 DEVICE_PACKAGE_OVERLAYS := device/samsung/torospr/overlay
 
+PRODUCT_COPY_FILES += \
+    device/samsung/torospr/apns-conf.xml:system/etc/apns-conf.xml
+
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/torospr/device-vendor.mk)
